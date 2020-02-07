@@ -14,18 +14,30 @@ A source-code editor, I use and recommend Visual Studio Code: https://code.visua
 A way to download this depository, Git: https://git-scm.com/downloads
 
 Discord bot:
+
 Create one by going to https://discordapp.com/developers/
+
 "New Application"
+
 Insert name and then "Create"
+
 "Bot" under settings tab
+
 "Add Bot" then "Yes do it"
+
 Here you can get your bot token
-	
+
+
 Discord dev mode:
+
 Start in discord, click the "Settings" gear next to your name
+
 Click "Appearance"
+
 Scroll down and toggle on "Developer Mode"
+
 You can now click on channels, roles, and users to obtain their ID's
+
 
 # Setup
 
