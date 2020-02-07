@@ -24,7 +24,7 @@ Here you can get your bot token
 Discord dev mode:
 Start in discord, click the "Settings" gear next to your name
 Click "Appearance"
-Scroll down and toggle "Developer Mode"
+Scroll down and toggle on "Developer Mode"
 You can now click on channels, roles, and users to obtain their ID's
 
 # Setup
