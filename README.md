@@ -14,18 +14,18 @@ A source-code editor, I use and recommend Visual Studio Code: https://code.visua
 A way to download this depository, Git: https://git-scm.com/downloads
 
 Discord bot:
-	Create one by going to https://discordapp.com/developers/
-	"New Application"
-	Insert name and then "Create"
-	"Bot" under settings tab
-	"Add Bot" then "Yes do it"
-	Here you can get your bot token
+Create one by going to https://discordapp.com/developers/
+"New Application"
+Insert name and then "Create"
+"Bot" under settings tab
+"Add Bot" then "Yes do it"
+Here you can get your bot token
 	
 Discord dev mode:
-	Start in discord, click the "Settings" gear next to your name
-	Click "Appearance"
-	Scroll down and toggle "Developer Mode"
-	You can now click on channels, roles, and users to obtain their ID's
+Start in discord, click the "Settings" gear next to your name
+Click "Appearance"
+Scroll down and toggle "Developer Mode"
+You can now click on channels, roles, and users to obtain their ID's
 
 # Setup
 
@@ -44,66 +44,63 @@ Do the same for INSERTINVITECODE2 and INSERTINVITECODE3, meaning you'll be repla
 Here is an example picture with labels that will make understanding config.json much easier:
 
 botname:
-	The name of your bot. 
-	This is used to log in console when your bot starts.
-	This also serves as the footer for your embeds.
+The name of your bot. 
+This is used to log in console when your bot starts.
+This also serves as the footer for your embeds.
 
 twitter:
-	Your twitter link.
-	This link is used in your embed titles as a hyperlink.
+Your twitter link.
+This link is used in your embed titles as a hyperlink.
 
 token:
-	Your discord bot token.
-	Used to log into your bot.
+Your discord bot token.
+Used to log into your bot.
 	
 server:
-	The name of your server.
-	Used when the bot dm's new members, and tells them welcome to the server.
+The name of your server.
+Used when the bot dm's new members, and tells them welcome to the server.
 	
 serverownerid:
-	Your discord profile id.
-	Found by enabling dev mode, then right clicking your name in discord.
-	Not currently serving any real purpose.
+Your discord profile id.
+Found by enabling dev mode, then right clicking your name in discord.
+Not currently serving any real purpose.
 	
 serverownerdiscord:
-	Your discord name and tag.
-	Ex: jokzyz#4121
-	Sent to new members in their welcome message.
+Your discord name and tag.
+Ex: jokzyz#4121
+Sent to new members in their welcome message.
 	
 monitorchannelwebhookid:
-	The webhook ID for the channel you would like the embeds to be sent to.
-	Create a webhook by right-clicking on a channel, clicking "Edit Channel," "Webhooks," then create a webhook.
-	Get webhook id from the webhook link: https://discordapp.com/api/webhooks/id/token
+The webhook ID for the channel you would like the embeds to be sent to.
+Create a webhook by right-clicking on a channel, clicking "Edit Channel," "Webhooks," then create a webhook.
+Get webhook id from the webhook link: https://discordapp.com/api/webhooks/id/token
 	
 monitorchannelwebhooktoken:
-	The webhook ID for the channel you would like the embeds to be sent to.
-	Create a webhook by right-clicking on a channel, clicking "Edit Channel," "Webhooks," then create a webhook.
-	Get webhook token from the webhook link: https://discordapp.com/api/webhooks/id/token
+The webhook ID for the channel you would like the embeds to be sent to.
+Create a webhook by right-clicking on a channel, clicking "Edit Channel," "Webhooks," then create a webhook.
+Get webhook token from the webhook link: https://discordapp.com/api/webhooks/id/token
 	
 embedtitle1, embedtitle2, and embedtitle3:
-	These serve as the title for each embed.
-
+These serve as the title for each embed.
 embedimageurl1, embedimageurl2, embedimageurl3:
-	These serve as the images for each embed.
-	Formatted as a url, such as "https://storage.googleapis.com/blerp-web-images/static/discord/Discord_logo_circle-tiny.png"
-	Using this image address for all three will give a basic discord bot image to your embeds.
+These serve as the images for each embed.
+Formatted as a url, such as "https://storage.googleapis.com/blerp-web-images/static/discord/Discord_logo_circle-tiny.png"
+Using this image address for all three will give a basic discord bot image to your embeds.
 	
 embedcolor1, embedcolor2, embedcolor3:
-	These serve as the colors for the embeds.
-	Formatted in hexcode, must be a # followed by 6 characters
-	Use this site to create your own: https://htmlcolorcodes.com/
+These serve as the colors for the embeds.
+Formatted in hexcode, must be a # followed by 6 characters
+Use this site to create your own: https://htmlcolorcodes.com/
 
 role1id, role2id, role3id:
-	These serve as the roles assigned for each invite link.
-	role1 is assigned to a user that joins with invite link 1, etc.
-	
+These serve as the roles assigned for each invite link.
+role1 is assigned to a user that joins with invite link 1, etc.
+
 role1name, role2name. role3name:
-	These serve as the names of each role assigned
-	Used in the welcome messages
+These serve as the names of each role assigned
+Used in the welcome messages
 	
 #Running the bot
-If you have set everything up correctly, and you are using visual studio code, you should be able to open the VSC terminal with CTRL+` and then type "node index.js"
+If you have set everything up correctly, and you are using visual studio code, you should be able to open the VSC terminal with CTRL+grave and then type "node index.js"
 
 This will then either print "botname active" in console, or give you an error to fix. If you can't figure out how to fix your issue, or have any other concerns, feel free to open an Issue here and dm me on discord (jokzyz#4121). 
-
-	
