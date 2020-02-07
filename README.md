@@ -7,13 +7,13 @@ I created it for my own verify server, but since I found a lot of questions onli
 
 # Requirements:
 
-Node JS: https://nodejs.org/en/download/
+* Node JS: https://nodejs.org/en/download/
 
 A source-code editor, I use and recommend Visual Studio Code: https://code.visualstudio.com/
 
 A way to download this depository, Git: https://git-scm.com/downloads
 
-Discord bot:
+* Discord bot:
 
 Create one by going to https://discordapp.com/developers/
 
@@ -28,7 +28,7 @@ Insert name and then "Create"
 Here you can get your bot token
 
 
-Discord dev mode:
+* Discord dev mode:
 
 Start in discord, click the "Settings" gear next to your name
 
